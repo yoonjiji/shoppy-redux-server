@@ -20,9 +20,9 @@ export const payment = async(req, res) => {
                 quantity: 1,
                 total_amount,
                 tax_free_amount: 0,
-                approval_url: "http://13.125.159.44:3000/payment/success",
-                cancel_url: "http://13.125.159.44:3000/payment/cancel",
-                fail_url: "http://13.125.159.44:3000/payment/fail",
+                approval_url: "http://15.164.166.134:3000/payment/success",
+                cancel_url: "http://15.164.166.134:3000/payment/cancel",
+                fail_url: "http://15.164.166.134:3000/payment/fail",
             },
             {
                 headers: {
